@@ -3,7 +3,7 @@ import { Button } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
 import usePlatform from "../hooks/usePlatform";
 import usePlaforms from "../hooks/usePlatforms";
-import { Platform } from "../entities/Platform";
+import  Platform  from "../entities/Platform";
 import useGameQueryStore from "../store";
 
 const PlatformSelector = () => {
